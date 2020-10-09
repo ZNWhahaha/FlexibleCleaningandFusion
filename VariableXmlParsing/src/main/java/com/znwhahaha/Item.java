@@ -1,0 +1,8 @@
+package com.znwhahaha;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Item {
+    public Map item = new HashMap();
+}
