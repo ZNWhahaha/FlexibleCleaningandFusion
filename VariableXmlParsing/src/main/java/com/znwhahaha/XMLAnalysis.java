@@ -9,8 +9,7 @@ import org.xml.sax.SAXException;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -72,5 +71,27 @@ public class XMLAnalysis {
 
         }
         System.out.println("传递fundsproject成功  "+ "("+hItem.fundsproject+")" + element.getElementsByTagName("fundsproject").item(0).getTextContent());
+    }
+
+    public static boolean ReadConfigItem(String filepath,String itemname)throws IOException{
+        //创建读取文本字符流
+        InputStreamReader isr = new InputStreamReader(new FileInputStream(filepath), "UTF-8");
+        BufferedReader in = new BufferedReader(isr);
+        //行对象
+        String line = "";
+        //保存需要的数据
+        String str="";
+        //循环遍历每行内容，截取需要的数据
+        while((line = in.readLine())!=null)
+        {
+            if(line.indexOf(itemname)>-1) {
+                //要执行的操作
+                // str+=line.substring(line.indexOf("信访件编号[")+6,line.indexOf("]的信访件的重复信访件编号"))+"\n";
+            }
+        }
+        if(!"".equals(str)) {
+            System.out.println(str);
+        }
+        return true;
     }
 }
