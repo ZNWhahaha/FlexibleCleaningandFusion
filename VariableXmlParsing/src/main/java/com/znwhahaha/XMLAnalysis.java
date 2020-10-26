@@ -11,13 +11,28 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.*;
 import java.util.ArrayList;
-import java.util.List;
 
 public class XMLAnalysis {
 
-    Item item = new Item();
+    //存储配置文件路径
+    public String conffilepath = "";
 
-    private static Item FilexmlAnalysis(String filePath) throws SAXException, ParserConfigurationException,IOException {
+
+
+    /**
+     * @ClassName : XMLAnalysis
+     * @Description : xml数据解析
+     * @param filePath
+
+     * @Return : com.znwhahaha.Item
+     * @Author : ZNWhahaha
+     * @Date : 2020/10/10
+    */
+    public Item FilexmlAnalysis(String filePath, String tablename) throws SAXException, ParserConfigurationException,IOException {
+        ReadConfigFile rf = new ReadConfigFile();
+        //从配置文件中获取属标志
+        ArrayList<String> xmlindex = rf.ReadConfigItem(conffilepath,tablename+"表xml标签属性=");
+        Item item = new Item();
         //存储重复元素类中重复的个数
         int num = 0;
         System.out.println("创建DOM解析器工厂");
@@ -27,12 +42,10 @@ public class XMLAnalysis {
         //获取解析器对象
         DocumentBuilder db = dbf.newDocumentBuilder();
         //调用DOM解析器对象paerse（string uri）方法得到Document对象
+//        System.out.println("调用DOM解析器   :" +filePath);
         Document doc = db.parse(filePath);
         //获得NodeList对象
         NodeList nl = doc.getElementsByTagName("Document");
-//            if (nl.getLength() == 0)
-//                return false;
-        System.out.println(nl.getLength());
         //遍历XML文件中的各个元素
         for (int i = 0; i < nl.getLength(); i++) {
             //得到Nodelist中的Node对象
@@ -42,56 +55,40 @@ public class XMLAnalysis {
 
             //获取各个元素的属性值
             System.out.println("开始传递数据");
-        }
-        return null;
-    }
+            for (String xm:xmlindex){
+                if(element.getElementsByTagName(xm).getLength() != 0){
+                    num = element.getElementsByTagName(xm).getLength();
+                    for (int j = 0; j < num; j++) {
+                        if (j == 0) {
+                            item.itemmap.put(xm,element.getElementsByTagName(xm).item(j).getTextContent());
+                        }else {
+                            String value = item.itemmap.get(xm) + ","+element.getElementsByTagName(xm).item(j).getTextContent();
+                            item.itemmap.put(xm,value);
+                        }
 
-    //对于所存入的HbaseItem内的数据进行处理，放入到hbase数据库中
-    private static boolean FileToHbase(String tableName){
-        return false;
-    }
-
-    //通过给定文件夹路径，查找该文件夹下的所有文件及文件名，并存储至泛型中
-    //input：文件夹路线
-    //output：该文件夹下所有文件的绝对路径
-    private static List<String> XMLFilePath(String localfilePath){
-        return null;
-    }
-
-
-    //String keyword
-    if(element.getElementsByTagName("keyword").getLength() != 0){
-        num = element.getElementsByTagName("keyword").getLength();
-        for (int j = 0; j < num; j++) {
-            if (j == 0) {
-                hItem.keyword = element.getElementsByTagName("keyword").item(j).getTextContent();
-            }else {
-                hItem.keyword += ","+element.getElementsByTagName("keyword").item(j).getTextContent();
+                    }
+                    System.out.println("传递成功  "+xm+ "("+item.itemmap.get(xm)+")" + element.getElementsByTagName(xm).item(0).getTextContent());
+                }
+            }
             }
 
-        }
-        System.out.println("传递fundsproject成功  "+ "("+hItem.fundsproject+")" + element.getElementsByTagName("fundsproject").item(0).getTextContent());
+        return item;
+    }
+    
+    /**
+     * @ClassName : XMLAnalysis
+     * @Description : 通过给定文件夹路径，查找该文件夹下的所有文件及文件名，并存储至泛型中
+     * @param localfilePath  文件夹路径
+     * @Return : java.lang.String[]
+     * @Author : ZNWhahaha
+     * @Date : 2020/10/10
+    */
+    public String[] XMLFilePath(String localfilePath){
+        File file = new File(localfilePath);
+        String[] array1 = file.list();
+        return array1;
     }
 
-    public static boolean ReadConfigItem(String filepath,String itemname)throws IOException{
-        //创建读取文本字符流
-        InputStreamReader isr = new InputStreamReader(new FileInputStream(filepath), "UTF-8");
-        BufferedReader in = new BufferedReader(isr);
-        //行对象
-        String line = "";
-        //保存需要的数据
-        String str="";
-        //循环遍历每行内容，截取需要的数据
-        while((line = in.readLine())!=null)
-        {
-            if(line.indexOf(itemname)>-1) {
-                //要执行的操作
-                // str+=line.substring(line.indexOf("信访件编号[")+6,line.indexOf("]的信访件的重复信访件编号"))+"\n";
-            }
-        }
-        if(!"".equals(str)) {
-            System.out.println(str);
-        }
-        return true;
-    }
+
+
 }
