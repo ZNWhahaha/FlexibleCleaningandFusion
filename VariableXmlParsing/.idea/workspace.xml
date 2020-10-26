@@ -7,83 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1180d1e-0817-43b4-acfd-a65114758363" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../AssignmentHbaseID/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AssignmentHbaseID/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AssignmentHbaseID/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AssignmentHbaseID/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AssignmentHbaseID/AssignmentHbaseID.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AssignmentHbaseID/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AssignmentHbaseID/src/main/java/com/znwhahaha/AboutHbase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AssignmentHbaseID/src/main/java/com/znwhahaha/ConfigInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AssignmentHbaseID/src/main/java/com/znwhahaha/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AssignmentHbaseID/src/main/java/com/znwhahaha/ReadConfigFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleCleaningModule1.0/.idea/artifacts/FlexibleCleaningModule1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleCleaningModule1.0/FlexibleCleaningModule1.0.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleCleaningModule1.0/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleCleaningModule1.0/src/main/java/com/znwhahaha/ConfigInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleCleaningModule1.0/src/main/java/com/znwhahaha/DataCleanRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleCleaningModule1.0/src/main/java/com/znwhahaha/DataCleaning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleCleaningModule1.0/src/main/java/com/znwhahaha/MR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleCleaningModule1.0/src/main/java/com/znwhahaha/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleCleaningModule1.0/src/main/java/com/znwhahaha/ReadConfigFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleCleaningModule1.0/xml.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleCleaningModule1.1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleCleaningModule1.1/.idea/artifacts/FlexibleCleaningModule1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleCleaningModule1.1/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleCleaningModule1.1/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleCleaningModule1.1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleCleaningModule1.1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleCleaningModule1.1/FlexibleCleaningModule1.1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleCleaningModule1.1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleCleaningModule1.1/src/main/java/com/znwhahaha/ConfigInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleCleaningModule1.1/src/main/java/com/znwhahaha/DataCleanRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleCleaningModule1.1/src/main/java/com/znwhahaha/DataCleaning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleCleaningModule1.1/src/main/java/com/znwhahaha/MR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleCleaningModule1.1/src/main/java/com/znwhahaha/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleCleaningModule1.1/src/main/java/com/znwhahaha/ReadConfigFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleFromHbaseToNeo4j/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleFromHbaseToNeo4j/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleFromHbaseToNeo4j/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleFromHbaseToNeo4j/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleFromHbaseToNeo4j/FlexibleFromHbaseToNeo4j.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleFromHbaseToNeo4j/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleFromHbaseToNeo4j/src/main/java/com/znwhahaha/AboutHbase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleFromHbaseToNeo4j/src/main/java/com/znwhahaha/ConfigInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleFromHbaseToNeo4j/src/main/java/com/znwhahaha/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleFromHbaseToNeo4j/src/main/java/com/znwhahaha/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleFromHbaseToNeo4j/src/main/java/com/znwhahaha/ReadConfigFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlexibleFromHbaseToNeo4j/xml.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HbaseDataAssociation/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HbaseDataAssociation/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HbaseDataAssociation/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HbaseDataAssociation/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HbaseDataAssociation/HbaseDataAssociation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HbaseDataAssociation/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HbaseDataAssociation/src/main/java/com/znwhahaha/ConfigInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HbaseDataAssociation/src/main/java/com/znwhahaha/MR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HbaseDataAssociation/src/main/java/com/znwhahaha/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HbaseDataAssociation/src/main/java/com/znwhahaha/ReadConfigFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HbaseDataAssociation/xml.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HbaseDataFusion/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HbaseDataFusion/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HbaseDataFusion/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HbaseDataFusion/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HbaseDataFusion/HbaseDataFusion.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HbaseDataFusion/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HbaseDataFusion/src/main/java/com/znwhahaha/ConfigInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HbaseDataFusion/src/main/java/com/znwhahaha/MR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HbaseDataFusion/src/main/java/com/znwhahaha/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HbaseDataFusion/src/main/java/com/znwhahaha/ReadConfigFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HbaseDataFusion/xml.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssignmentHbaseID/src/main/java/com/znwhahaha/AboutHbase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AssignmentHbaseID/src/main/java/com/znwhahaha/AboutHbase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FromPAPERToNew/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FromPAPERToNew/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HbaseDataFusion/src/main/java/com/znwhahaha/MR.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HbaseDataFusion/src/main/java/com/znwhahaha/MR.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/znwhahaha/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/znwhahaha/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/znwhahaha/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/znwhahaha/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/znwhahaha/PullXMLFiles.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/znwhahaha/Sendmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/znwhahaha/Sendmail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/znwhahaha/SetHbase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/znwhahaha/SetHbase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/znwhahaha/XMLAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/znwhahaha/XMLAnalysis.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -177,7 +105,7 @@
       <workItem from="1602828323385" duration="2347000" />
       <workItem from="1603073238589" duration="23527000" />
       <workItem from="1603425304391" duration="3944000" />
-      <workItem from="1603610870794" duration="3589000" />
+      <workItem from="1603610870794" duration="5251000" />
     </task>
     <servers />
   </component>

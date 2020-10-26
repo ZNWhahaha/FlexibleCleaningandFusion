@@ -95,6 +95,8 @@ public class AboutHbase {
             String key = Bytes.toString(result.getRow());
             Put put = new Put(key.getBytes());
             put.addColumn(Bytes.toBytes("inf"),Bytes.toBytes(tablename+":ID"),Bytes.toBytes(nowid));
+            table.put(put);
         }
+        table.close();
     }
 }

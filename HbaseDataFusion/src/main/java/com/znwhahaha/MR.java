@@ -103,9 +103,7 @@ public class MR extends Configured implements Tool {
 
             Configuration conf = context.getConfiguration();
             ConfigInit.Outputtable = conf.get("outputtable");
-
-            String k1 = Bytes.toString(key.get());
-            String Rowkey = k1.split("<=>")[0];
+            String Rowkey = Bytes.toString(key.get());
             ArrayList<String> qualifierSet = new ArrayList<String>();
             ArrayList<String> valueSet = new ArrayList<String>();
             String fusionvalue = "";

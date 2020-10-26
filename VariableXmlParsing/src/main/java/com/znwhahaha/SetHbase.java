@@ -52,7 +52,7 @@ public class SetHbase {
         if (item.itemmap.isEmpty()){
             return false;
         }
-        ArrayList<String> hbaseindex = ReadConfigFile.ReadConfigItem(conffilepath,tableName+"列族信息=");
+        ArrayList<String> hbaseindex = ReadConfigFile.ReadConfigItem(conffilepath,tableName+"列信息=");
         String rowkeyindex = ReadConfigFile.ReadConfigItem(conffilepath,tableName+"的RowKey=").get(0);
         Table table = connection.getTable(TableName.valueOf(tableName));
         String key = (String)item.itemmap.get(rowkeyindex);
